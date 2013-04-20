@@ -14,6 +14,7 @@ function getLinesFromFile($fileName) {
 }
 
 $lines = getLinesFromFile($fileName);
+
 foreach ($lines as $line) {
 	// do something with $line
 }
