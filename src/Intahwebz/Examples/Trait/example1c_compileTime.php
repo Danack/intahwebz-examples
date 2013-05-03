@@ -12,12 +12,10 @@ trait	TestTrait{
 
 
 class 	TestClass{
-
 	use TestTrait;
 }
 
 class 	SecondTestClass{
-
 	use TestTrait;
 }
 

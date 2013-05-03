@@ -1,10 +1,21 @@
 <?php
 
+//They really are copied and pasted into each class.
+//Variables inside traits (or trait functions) have one instance per class that uses them
+
+
 trait Counter {
 	public function inc() {
 		static $count = 0;
 		$count = $count + 1;
 		echo $count."\n";
+	}
+
+	public static $classCount = 0;
+
+	public function incClassVar(){
+		self::$classCount += 1;
+		echo  self::$classCount."\n";
 	}
 }
 
@@ -16,9 +27,15 @@ class C2 {
 	use Counter;
 }
 
-$o = new C1(); $o->inc(); // echo 1
-$p = new C2(); $p->inc(); // echo 1
+$a = new C1();
+$a->inc(); // echo 1
 
+$b = new C2();
+$b->inc(); // echo 1
+
+
+$a->incClassVar(); // echo 1
+$b->incClassVar(); // echo 1
 
 
 

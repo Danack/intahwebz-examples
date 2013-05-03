@@ -7,6 +7,7 @@
 //
 //For example, you have a list of products that you want to filter out based on some criteria (brands, specs, whatever), or sorted by different means (price, label, whatever). You can create a sorting trait that contains different functions for different sorting types (numeric, string, date, etc). You can then use this trait not only in your product class (as given in the example), but also in other classes that need similar strategies (to apply a numeric sort to some data, etc).
 
+//Probably a bad idea - this smells like a bad design.
 
 trait SortStrategy {
 

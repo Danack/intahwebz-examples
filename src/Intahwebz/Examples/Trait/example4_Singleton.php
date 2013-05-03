@@ -22,20 +22,15 @@ trait Singleton{
 
 		return static::$instance;
 	}
-
-//	function initInstance(){
-//	}
 };
 
 
 
 class 	TestClass{
-
 	use Singleton;
 }
 
 class 	SecondTestClass{
-
 	use Singleton;
 }
 

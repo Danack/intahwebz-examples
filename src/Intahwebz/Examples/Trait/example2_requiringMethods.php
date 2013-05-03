@@ -2,13 +2,12 @@
 
 
 //Traits are able to express required methods by using abstract method declarations.
-//An abstract method can be satisfied in varios ways, for instance by implementing
+//An abstract method can be satisfied in various ways, for instance by implementing
 //it in the composing class or by bringing it in from another Trait.
 
 
 
 trait Greet {
-
 	abstract public function getName();
 
 	function greet(){
