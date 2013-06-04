@@ -3,11 +3,9 @@
 
 
 trait	TestTrait{
-
 	function	compileTimeJoy(){
 		echo "Firing up trait [". __TRAIT__."] in class [".__CLASS__."]\n";
 	}
-
 }
 
 
@@ -24,7 +22,6 @@ $testClass->compileTimeJoy();
 
 $secondTestClass = new SecondTestClass();
 $secondTestClass->compileTimeJoy();
-
 
 //Firing up trait [TestTrait] in class [TestClass]
 //Firing up trait [TestTrait] in class [SecondTestClass]

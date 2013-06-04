@@ -8,7 +8,8 @@ trait Singleton{
 	private static $instance = null;
 
 	/**
-	 * @return static
+	 * This type hinting works correctly in PHPStorm 6 
+	 * @return static 
 	 */
 	public static function getInstance(){
 
