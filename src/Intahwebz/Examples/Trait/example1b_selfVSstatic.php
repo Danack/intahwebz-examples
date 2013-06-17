@@ -11,7 +11,7 @@
 
 // __TRAIT__ - name of the trait
 // __CLASS__ - the name of the class that the trait is used in
-// getClass($this) - gets the actual instance of the class that a trait is contained in
+// get_class($this) - gets the actual instance of the class that a trait is contained in
 
 class A {
 	public static function get_A() {
