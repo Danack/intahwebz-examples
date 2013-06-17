@@ -20,8 +20,6 @@ function loadImages() {
 }
 
 
-
-
 function loadImagesDynamic() {
 
 	var params = {};
@@ -37,3 +35,6 @@ function loadImagesDynamic() {
 	});
 }
 
+
+//uncomment this to see that the Javascript for the page is being loaded on every content refresh
+//alert("Javascript file is loaded.");

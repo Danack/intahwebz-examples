@@ -25,6 +25,8 @@ class PageLayout implements Render {
 		echo "<html><head></head><body>";
 		echo "<h2>Welcome to a test server!</h2>";
 
+		echo "<p>This is the start of the page, it should only appear once, but clicking the refresh button below will make a duplicate.</p>";
+
 		echo "<span id='mainContent'>";
 	}
 
