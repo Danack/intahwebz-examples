@@ -11,10 +11,10 @@ function loadImages() {
 	params.panel = true;
 
 	$.ajax({
-		url: '/TheProblem.php',
+		url: 'TheProblem.php',
 		data: params,
 	//	dataType: 'json',
-		type: 'GET',
+		type: 'POST',
 		success: loadImagesSuccess,
 	});
 }
@@ -27,10 +27,10 @@ function loadImagesDynamic() {
 	params.panel = true;
 
 	$.ajax({
-		url: '/TheSolution.php',
+		url: 'TheSolution.php',
 		data: params,
 		//	dataType: 'json',
-		type: 'GET',
+		type: 'POST',
 		success: loadImagesSuccess,
 	});
 }

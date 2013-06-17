@@ -18,6 +18,7 @@
 
 <h1>Dynamic inheritance in PHP</h1>
 
+All of this example is available in <a href='https://github.com/Danack/intahwebz-examples' target='_blank'>https://github.com/Danack/intahwebz-examples</a>
 
 <h2>The problem</h2>
 
@@ -44,7 +45,7 @@
 	</ul>
 </p>
 
-	<p>This <a href='TheProblem.php'>is a demo of that problem</a> where Ajax calls to refresh the images on a page actually embed a new copy of the page inside the original page. Which is not what's wanted.</p>
+	<p>This <a href='TheProblem.php' target='_blank'>is a demo of that problem</a> where Ajax calls to refresh the images on a page actually embed a new copy of the page inside the original page. Which is not what's wanted.</p>
 
 </div>
 
@@ -99,7 +100,7 @@ It is possible to create dynamic inheritance in PHP using the power of the magic
 	To be honest, the code in 'TheSolution.php' may be easier to follow than the description above. It even has comments and everything.
 </p>
 
-<a href='TheSolution.php'>Demo of dynamic inheritance working</a>
+<a href='TheSolution.php' target='_blank'>Demo of dynamic inheritance working</a>
 
 </div>
 <div style='clear: both'></div>
@@ -110,7 +111,7 @@ It is possible to create dynamic inheritance in PHP using the power of the magic
 <ul>
 
 	<li>Proxying the parent classes by hand is probably a bad idea. You should either only be using this when you're auto-genering code, and so can add the Proxied versions of the classes when you generate the code. Or you should use a tool like
-		<a href='https://github.com/ejsmont-artur/phpProxyBuilder'>PHP Proxy Builder to dynamically proxy your classes.</a>
+		<a href='https://github.com/ejsmont-artur/phpProxyBuilder' target='_blank'>PHP Proxy Builder to dynamically proxy your classes.</a>
 	</li>
 
 	<li>
