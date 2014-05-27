@@ -5,6 +5,7 @@
 trait	TestTrait{
 	function	compileTimeJoy(){
 		echo "Firing up trait [". __TRAIT__."] in class [".__CLASS__."]\n";
+		echo "static class ".static::class."\n";
 	}
 }
 
